@@ -1,11 +1,11 @@
-#TeaForTwo Project
+# TeaForTwo Project
 
 
-##Overview
+## Overview
 
 TeaForTwo is a fictitious project created for the purpose of practicing backend development, database management, and implementing a three-tier architecture. Please note that the website is not responsive, as it was not the main focus of this project. The goal was to build an e-commerce site for a fictional pastry shop.
 
-##Features:
+## Features:
 
  * View product listings
  * Add items to the shopping cart
@@ -13,7 +13,7 @@ TeaForTwo is a fictitious project created for the purpose of practicing backend 
  * User registration
  * User login and logout
 
-##Technologies Used:
+## Technologies Used:
 
   * Node.js
   * Express.js
@@ -22,7 +22,7 @@ TeaForTwo is a fictitious project created for the purpose of practicing backend 
   * JavaScript
   * PostgreSQL (utilized with Postbird for database management)
 
-##Project Details
+## Project Details
 
 The project was developed with a local database using SQLite. It includes three main layers: frontend, backend, and database. The frontend was built using HTML, CSS, and JavaScript, with React for dynamic UI components.
 How to Run
@@ -33,6 +33,6 @@ How to Run
   * Start the backend using node app.js.
   * Open the project in your preferred web browser.
 
-##Disclaimer
+## Disclaimer
 
 The images used in this project are for demonstration purposes only and have been sourced from the internet.
