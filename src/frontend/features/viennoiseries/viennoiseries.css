@@ -1,0 +1,132 @@
+.Products-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 77vh;
+    margin-top: 0;
+    width: 100%;
+}
+
+.Products-container p {
+    width: 80%;
+    margin-top: 0px;
+    text-align: left;
+}
+
+.Products-title {
+    color: #48715b;
+    margin-bottom: 5%;
+    text-align: left;
+    margin-top: 5%;
+}
+
+.Display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.Products-block {
+    max-width: 25%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 400px; 
+    overflow: hidden; /* Garante que a imagem não ultrapasse a altura definida */
+    text-align: center; 
+}
+
+.Products-block img {
+    width: 100%;
+    height: auto; /* Garante que a imagem não fique distorcida */
+}
+
+.Products-block h4 {
+    margin-bottom: 200px;
+}
+
+
+
+
+.Products-details {
+    background-color: white;
+    height: 77vh;
+}
+
+.Block-details {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(197, 202, 152, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Block-details img {
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.Information {
+    text-align: left;
+    max-width: 50%;
+}
+
+.Information .Product-price {
+    color: #48715b;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.Price {
+    display: flex;
+}
+
+.Total {
+    justify-content: flex-end;
+    max-width: 50%;
+    margin: 70px 0;
+    margin-left: 100px;
+    color: #48715b;
+}
+
+.Contador {
+    width: 20%;
+    display: flex;
+    align-items: left;
+    margin-top: 50px;
+}
+
+.Contador button {
+    margin: 10px 0;
+    margin-right: -50px;
+    padding: 15px;
+    max-height: 45px;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.Contador button:hover {
+    color: #48715b;
+}
+
+.Contador h3:hover {
+    color: white;
+}
+
+.Close {
+    margin-top: -180px;
+}
+
+.Close:hover {
+    color: white;
+}

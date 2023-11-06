@@ -1,0 +1,75 @@
+.Basket-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 77vh;
+    margin-top: 0;
+}
+
+.Display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+.Display img{
+    max-width: 150px;
+    height: 100%;
+}
+
+.Display h4{
+    color: black;
+}
+
+.Contador{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.Contador h3{
+    color:#48715b;
+}
+
+.Contador h3:hover{
+    color:#c5ca98;
+}
+
+.Contador h4{
+    color: black;
+}
+
+.Basket-title{
+    color: #48715b;
+    margin-bottom: 5%;
+    text-align: left;
+    margin-top: 5%;
+}
+
+.Total{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-top: 100px;
+    justify-content: space-between;
+
+}
+
+.Total-title{
+    width: 50%;
+    color: #48715b;
+}
+
+.Checkout{
+    padding: 15px;
+    background-color: #48715b;
+    color: white;
+    border-radius: 10%;
+}
+
+.Checkout:hover{
+    color: #c5ca98;
+}
+

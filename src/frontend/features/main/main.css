@@ -1,0 +1,97 @@
+.Display-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Display-container img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    object-position: center;
+    box-sizing: border-box; 
+}
+
+.Title-left{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10% 0;
+}
+
+.Title-left-h{
+    width: 50%;
+    align-self: center;
+    margin-left: 10%;
+}
+
+.P-right{
+    width: 50%;
+    text-align: left;
+    font-size: 150%;
+    margin-right: 10%;
+}
+
+.Align-right{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    object-fit: cover;
+    object-position: center;
+    box-sizing: border-box; 
+    padding-top: 10%;
+    padding: 5%;
+}
+
+
+.Align-right img{
+    max-width: 40%;
+    max-height: 40vh;
+}
+
+.Block-information{
+    align-self: center;
+    padding: 5%;
+}
+
+.Title-block{
+    text-align: center;
+}
+
+.P-block{
+    text-align: left;
+}
+
+.Book-table{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+
+}
+
+.Box-table{
+    width: 20%;
+    background-color:#c5ca98;
+    height: 20vh;
+    align-self: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.Box-table:hover{
+    background-color:#c5ca98;
+    box-shadow: 5px 5px 2px 0px #48715b;
+    -webkit-box-shadow: 5px 5px 2px 0px #48715b;
+    -moz-box-shadow: 5px 5px 2px 0px #48715b;
+}
+
+.Title-box{
+    align-self: center;
+    font-size: 150%;
+}
+
+
+

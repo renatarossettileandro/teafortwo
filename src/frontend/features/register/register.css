@@ -1,0 +1,74 @@
+.Register-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 77vh;
+    margin-top: 0;
+}
+
+.Offer {
+    width: 50%;
+}
+
+.Offer p{
+    font-size: 250%;
+    color: #48715b;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.Form-register {
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 2%;
+}
+
+.Form-register form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Form-register form input{
+    border: 1px solid rgb(200, 196, 196);
+    border-radius: 5px;
+    padding-left: 1%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.Form-register form button{
+    border: 1px solid #48715b;
+    background-color: #48715b;
+    color: white;
+    border-radius: 5px;
+    padding-left: 1%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 100%;
+}
+
+.Form-register form button:hover{
+    border: 1px solid #48715b;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding-left: 1%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 100%;
+}
+
+.Form-register label,
+.Form-register input,
+.Form-register button {
+    margin-bottom: 25px;
+}
+
+.Error{
+    color: red;
+}
+
+.Success{
+    color: #48715b;
+}

@@ -1,0 +1,10 @@
+.Login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 77vh; /* Ajuste a altura conforme necessário */
+}
+
+.Form-register {
+    text-align: center;
+}
